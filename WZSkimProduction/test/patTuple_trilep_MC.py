@@ -1,0 +1,23 @@
+from UserAnalysis.WZSkimProduction.patTuple_trilep_cfg import *
+from UserAnalysis.WZSkimProduction.patTuple_trigger_cfg import *
+from UserAnalysis.WZSkimProduction.patTuple_mc_cfg import *
+
+#from UserCode.CMGWPrimeGroup.patTuple_trilep_cfg import *
+#from UserCode.CMGWPrimeGroup.patTuple_trigger_cfg import *
+#from UserCode.CMGWPrimeGroup.patTuple_mc_cfg import *
+
+# 2nd argument: message-logger frequency
+# 3rd argument: # of events to process
+trilep_config(process, 100, 200, False)
+mc_config(process, cms)
+
+process.source.fileNames = [
+    'file:///hdfs/store/mc/Summer12_DR53X/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph-tarball/AODSIM/PU_S10_START53_V7A-v1/0001/BA50ECB3-75D3-E111-B042-0025B31E3C3C.root'
+#    '/store/mc/Summer12_DR53X/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph-tarball/AODSIM/PU_S10_START53_V7A-v1/0001/FE4B9392-D8D3-E111-8789-0025B3E05D8C.root'
+#    '/store/user/fantasia/53X/WprimeToWZToLLLNu_M_1000_TuneZ2star_8TeV_pythia6_tauola/WprimeToWZToLLLNu_M_1000_TuneZ2star_8TeV_pythia6_tauola_AODSIM_Run10.root'
+#    '/store/mc/Summer12_DR53X/WprimeToWZToLLLNu_M-1900_TuneZ2star_8TeV-pythia6-tauola/AODSIM/PU_S10_START53_V7A-v1/0000/320D6545-18ED-E111-97B1-0017A4770828.root'
+    ] 
+
+#process.out.outputCommands.append('keep *_*_*_*')
+
+#print process.p
