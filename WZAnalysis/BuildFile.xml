@@ -1,0 +1,34 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/Common"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="DataFormats/Candidate"/>
+<use name="DataFormats/HepMCCandidate"/>
+<use name="DataFormats/PatCandidates"/>
+<use name="PhysicsTools/PatUtils"/>
+<use name="DataFormats/Math"/>
+<use name="DataFormats/TestObjects"/>
+<use name="DataFormats/Common"/>
+<use name="DataFormats/EcalRecHit"/>
+<use name="CommonTools/UtilAlgos"/>
+<use name="HLTrigger/HLTcore"/>
+<use name="PhysicsTools/CandUtils"/>
+<use name="PhysicsTools/Utilities"/>
+<use name="RecoLocalCalo/EcalRecAlgos"/>
+<use name="Geometry/CaloGeometry"/>
+<use name="Geometry/Records"/>
+<use name="UserAnalysis/WZProducts"/>
+<use name="RecoEcal/EgammaCoreTools"/>
+<use name="RecoEgamma/EgammaElectronAlgos"/>
+<use name="EGamma/EGammaAnalysisTools"/>
+<use name="HiggsAnalysis/HiggsToWW2Leptons"/>
+<use name="clhep"/>
+<use name="root"/>
+<flags EDM_PLUGIN="1"/>
+<export>
+   <lib name="UserAnalysisWZAnalysis"/>
+   <use name="FWCore/Framework"/>
+   <use name="FWCore/PluginManager"/>
+   <use name="FWCore/ParameterSet"/>
+   <use name="UserAnalysis/WZAnalysis"/>
+</export>
