@@ -75,10 +75,10 @@ def trilep_config(process, mode, reportEveryNum=100, maxEvents=-1, runOnData=Fal
                                             )
 
     ## let it run
- #   addElectronEnergyCorrections(process, mode)
+    addElectronEnergyCorrections(process, mode)
     process.p = cms.Path(
-#        process.eleRegressionEnergy *
-  #      process.calibratedGsfElectrons *
+        process.eleRegressionEnergy *
+        process.calibratedGsfElectrons *
         process.mvaID *
         process.patDefaultSequence *
         process.patConversions *
@@ -86,7 +86,7 @@ def trilep_config(process, mode, reportEveryNum=100, maxEvents=-1, runOnData=Fal
         (process.kt6PFJets*process.patJetCorrFactors) 
         )
     common_filters(process)
-   # switchToElectronEnergyCorrections(process, mode)
+    switchToElectronEnergyCorrections(process, mode)
     #print process.p
     
     process.out.SelectEvents = cms.untracked.PSet(
