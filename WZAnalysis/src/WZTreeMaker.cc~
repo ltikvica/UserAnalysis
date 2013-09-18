@@ -749,15 +749,8 @@ WZTreeMaker::storeToMaps(const pat::Electron & p, Point vertex, std::string pref
   storeF(pre+"gsf_dr03HcalTowerSumEt",p.userFloat("gsf_dr03HcalTowerSumEt"));
 
   //new MVA  
-  store = p.core().isNonnull(); // not a default-constructed electron
-  if (store) {
   storeF(pre+"mvaTrig",p.electronID("mvaTrigV0"));
   storeF(pre+"mvaNonTrig",p.electronID("mvaNonTrigV0"));
-  }
-  else {
-    storeF(pre+"mvaNonTrig",-999);
-    storeF(pre+"mvaTrig",-999);
-  }
 
   //MVA vars uncorrected gsf
   storeF(pre+"gsf_pt",p.userFloat("gsf_pt"));

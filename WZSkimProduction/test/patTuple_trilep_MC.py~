@@ -1,4 +1,4 @@
-#from UserAnalysis.WZSkimProduction.patTuple_trilep_cfg import *
+from UserAnalysis.WZSkimProduction.patTuple_trilep_cfg import *
 from UserAnalysis.WZSkimProduction.patTuple_trigger_cfg import *
 from UserAnalysis.WZSkimProduction.patTuple_mc_cfg import *
 
@@ -8,7 +8,9 @@ from UserAnalysis.WZSkimProduction.patTuple_mc_cfg import *
 
 # 2nd argument: message-logger frequency
 # 3rd argument: # of events to process
+addElectronEnergyCorrections(process, "MC")
 trilep_config(process, 100, 200, False)
+
 mc_config(process, cms)
 
 process.source.fileNames = [

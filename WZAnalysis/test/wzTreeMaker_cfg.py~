@@ -65,9 +65,9 @@ process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_cff")
 #from Configuration.PyReleaseValidation.autoCond import autoCond
 #process.GlobalTag.globaltag = cms.string( autoCond[ 'startup' ] )
 #global tag for data:
-process.GlobalTag.globaltag = 'FT_R_53_V18::All'
+#process.GlobalTag.globaltag = 'FT_R_53_V18::All'
 #global tag for MC:
-#process.GlobalTag.globaltag = 'START53_V7G::All'
+process.GlobalTag.globaltag = 'START53_V7G::All'
 
 # Any branch whose name matches one of these perl-style regular expressions
 # will not be generated in the ouput tree (use '.*' for wildcard)

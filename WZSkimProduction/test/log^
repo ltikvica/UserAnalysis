@@ -1,0 +1,757 @@
+Building particle-based isolation 
+***************** 
+WARNING: called applyPostfix for module/sequence patDefaultSequence which is not in patDefaultSequence!
+WARNING: called applyPostfix for module/sequence patDefaultSequence which is not in patDefaultSequence!
+13-Sep-2013 06:25:56 CDT  Initiating request to open file file:///hdfs/store/mc/Summer12_DR53X/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph-tarball/AODSIM/PU_S10_START53_V7A-v1/0001/BA50ECB3-75D3-E111-B042-0025B31E3C3C.root
+13-Sep-2013 06:26:02 CDT  Successfully opened file file:///hdfs/store/mc/Summer12_DR53X/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph-tarball/AODSIM/PU_S10_START53_V7A-v1/0001/BA50ECB3-75D3-E111-B042-0025B31E3C3C.root
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat1.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat1.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 0 : MethodName = BDT , type == 0 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat1.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat2.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat2.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 1 : MethodName = BDT , type == 0 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat2.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat3.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat3.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 2 : MethodName = BDT , type == 0 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat3.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat4.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat4.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 3 : MethodName = BDT , type == 0 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat4.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat5.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat5.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 4 : MethodName = BDT , type == 0 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat5.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat6.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat6.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 5 : MethodName = BDT , type == 0 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigV0_Cat6.weights.xml
+Electron ID MVA Completed
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat1.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat1.weights.xml
+--- newPreSelEleDYMC50perc...: Read method "newPreSelEleDYMC50perc22012BDT2" of type "BDT"
+--- newPreSelEleDYMC50perc...: MVA method was trained with TMVA Version: 4.0.7
+--- newPreSelEleDYMC50perc...: MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "newPreSelEleDYMC50perc22012BDT2" of type: "BDT"
+MVABin 0 : MethodName = BDT , type == 1 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat1.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat2.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat2.weights.xml
+--- newPreSelEleDYMC50perc...: Read method "newPreSelEleDYMC50perc22012BDT2" of type "BDT"
+--- newPreSelEleDYMC50perc...: MVA method was trained with TMVA Version: 4.0.7
+--- newPreSelEleDYMC50perc...: MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "newPreSelEleDYMC50perc22012BDT2" of type: "BDT"
+MVABin 1 : MethodName = BDT , type == 1 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat2.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat3.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat3.weights.xml
+--- newPreSelEleDYMC50perc...: Read method "newPreSelEleDYMC50perc22012BDT2" of type "BDT"
+--- newPreSelEleDYMC50perc...: MVA method was trained with TMVA Version: 4.0.7
+--- newPreSelEleDYMC50perc...: MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "newPreSelEleDYMC50perc22012BDT2" of type: "BDT"
+MVABin 2 : MethodName = BDT , type == 1 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat3.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat4.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat4.weights.xml
+--- newPreSelEleDYMC50perc...: Read method "newPreSelEleDYMC50perc22012BDT2" of type "BDT"
+--- newPreSelEleDYMC50perc...: MVA method was trained with TMVA Version: 4.0.7
+--- newPreSelEleDYMC50perc...: MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "newPreSelEleDYMC50perc22012BDT2" of type: "BDT"
+MVABin 3 : MethodName = BDT , type == 1 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat4.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat5.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat5.weights.xml
+--- newPreSelEleDYMC50perc...: Read method "newPreSelEleDYMC50perc22012BDT2" of type "BDT"
+--- newPreSelEleDYMC50perc...: MVA method was trained with TMVA Version: 4.0.7
+--- newPreSelEleDYMC50perc...: MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "newPreSelEleDYMC50perc22012BDT2" of type: "BDT"
+MVABin 4 : MethodName = BDT , type == 1 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat5.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat6.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat6.weights.xml
+--- newPreSelEleDYMC50perc...: Read method "newPreSelEleDYMC50perc22012BDT2" of type "BDT"
+--- newPreSelEleDYMC50perc...: MVA method was trained with TMVA Version: 4.0.7
+--- newPreSelEleDYMC50perc...: MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "newPreSelEleDYMC50perc22012BDT2" of type: "BDT"
+MVABin 5 : MethodName = BDT , type == 1 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_TrigNoIPV0_2012_Cat6.weights.xml
+Electron ID MVA Completed
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat1.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat1.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 0 : MethodName = BDT , type == 2 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat1.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat2.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat2.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 1 : MethodName = BDT , type == 2 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat2.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat3.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat3.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 2 : MethodName = BDT , type == 2 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat3.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat4.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat4.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 3 : MethodName = BDT , type == 2 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat4.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat5.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat5.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 4 : MethodName = BDT , type == 2 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat5.weights.xml
+--- Reader                   : Booking "BDT" of type "BDT" from /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat6.weights.xml.
+--- MethodBase               : Reading weight file: /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat6.weights.xml
+--- BDT                      : Read method "BDT" of type "BDT"
+--- BDT                      : MVA method was trained with TMVA Version: 4.0.7
+--- BDT                      : MVA method was trained with ROOT Version: 5.27/06
+--- Reader                   : Booked classifier "BDT" of type: "BDT"
+MVABin 5 : MethodName = BDT , type == 2 , Load weights file : /afs/hep.wisc.edu/user/ltikvica/private/test/CMSSW_5_3_7_patch4/src/EgammaAnalysis/ElectronTools/data/Electrons_BDTG_NonTrigV0_Cat6.weights.xml
+Electron ID MVA Completed
+[CalibratedGsfElectronProducer] Correcting scale for dataset Summer12_LegacyPaper
+You choose regression 2 scale corrections.
+[ElectronEnergyCalibrator] Initialization in MC mode
+[CalibratedGsfElectronProducer] ElectronEnergyCalibrator object is created
+[CalibratedGsfElectronProducer] Combination tools are created and initialized
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 0 passed = 0 failed = 0
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 p
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     0    0          0          0          0          0 outpath
+
+TrigReport ---------- Modules in Path: p ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 mvaTrigV0
+TrigReport     1    0          0          0          0          0 mvaTrigNoIPV0
+TrigReport     1    0          0          0          0          0 mvaNonTrigV0
+TrigReport     1    0          0          0          0          0 calibratedElectrons
+TrigReport     1    0          0          0          0          0 pfPileUpIso
+TrigReport     1    0          0          0          0          0 pfNoPileUpIso
+TrigReport     1    0          0          0          0          0 pfAllNeutralHadrons
+TrigReport     1    0          0          0          0          0 pfAllChargedHadrons
+TrigReport     1    0          0          0          0          0 pfAllPhotons
+TrigReport     1    0          0          0          0          0 pfAllChargedParticles
+TrigReport     1    0          0          0          0          0 pfPileUpAllChargedParticles
+TrigReport     1    0          0          0          0          0 pfAllNeutralHadronsAndPhotons
+TrigReport     1    0          0          0          0          0 elPFIsoDepositChargedPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoDepositChargedAllPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoDepositGammaPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoDepositNeutralPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoDepositPUPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueCharged03PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueChargedAll03PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueGamma03PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueNeutral03PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValuePU03PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueCharged04PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueChargedAll04PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueGamma04PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueNeutral04PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValuePU04PFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueCharged03NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueChargedAll03NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueGamma03NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueNeutral03NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValuePU03NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueCharged04NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueChargedAll04NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueGamma04NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValueNeutral04NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 elPFIsoValuePU04NoPFIdPFIso
+TrigReport     1    0          0          0          0          0 muPFIsoDepositChargedPFIso
+TrigReport     1    0          0          0          0          0 muPFIsoDepositChargedAllPFIso
+TrigReport     1    0          0          0          0          0 muPFIsoDepositGammaPFIso
+TrigReport     1    0          0          0          0          0 muPFIsoDepositNeutralPFIso
+TrigReport     1    0          0          0          0          0 muPFIsoDepositPUPFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueCharged03PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueChargedAll03PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueGamma03PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueNeutral03PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueGammaHighThreshold03PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueNeutralHighThreshold03PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValuePU03PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueCharged04PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueChargedAll04PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueGamma04PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueNeutral04PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueGammaHighThreshold04PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValueNeutralHighThreshold04PFIso
+TrigReport     1    0          0          0          0          0 muPFIsoValuePU04PFIso
+TrigReport     1    0          0          0          0          0 electronMatch
+TrigReport     1    0          0          0          0          0 patElectrons
+TrigReport     1    0          0          0          0          0 muonMatch
+TrigReport     1    0          0          0          0          0 patMuons
+TrigReport     1    0          0          0          0          0 pfPileUpIso
+TrigReport     1    0          0          0          0          0 pfNoPileUpIso
+TrigReport     1    0          0          0          0          0 pfAllNeutralHadrons
+TrigReport     1    0          0          0          0          0 pfAllChargedHadrons
+TrigReport     1    0          0          0          0          0 pfAllPhotons
+TrigReport     1    0          0          0          0          0 pfAllChargedParticles
+TrigReport     1    0          0          0          0          0 pfPileUpAllChargedParticles
+TrigReport     1    0          0          0          0          0 pfAllNeutralHadronsAndPhotons
+TrigReport     1    0          0          0          0          0 tauIsoDepositPFCandidates
+TrigReport     1    0          0          0          0          0 tauIsoDepositPFChargedHadrons
+TrigReport     1    0          0          0          0          0 tauIsoDepositPFNeutralHadrons
+TrigReport     1    0          0          0          0          0 tauIsoDepositPFGammas
+TrigReport     1    0          0          0          0          0 tauMatch
+TrigReport     1    0          0          0          0          0 tauGenJets
+TrigReport     1    0          0          0          0          0 tauGenJetsSelectorAllHadrons
+TrigReport     1    0          0          0          0          0 tauGenJetMatch
+TrigReport     1    0          0          0          0          0 patTaus
+TrigReport     1    0          0          0          0          0 photonMatch
+TrigReport     1    0          0          0          0          0 patPhotons
+TrigReport     1    0          0          0          0          0 patJetCorrFactors
+TrigReport     1    0          0          0          0          0 patJetCharge
+TrigReport     1    0          0          0          0          0 patJetPartonMatch
+TrigReport     1    0          0          0          0          0 patJetGenJetMatch
+TrigReport     1    0          0          0          0          0 patJetPartons
+TrigReport     1    0          0          0          0          0 patJetPartonAssociation
+TrigReport     1    0          0          0          0          0 patJetFlavourAssociation
+TrigReport     1    0          0          0          0          0 patJets
+TrigReport     1    0          0          0          0          0 caloJetMETcorr
+TrigReport     1    0          0          0          0          0 muonCaloMETcorr
+TrigReport     1    0          0          0          0          0 caloType1CorrectedMet
+TrigReport     1    0          0          0          0          0 caloType1p2CorrectedMet
+TrigReport     1    0          0          0          0          0 pfCandsNotInJet
+TrigReport     1    0          0          0          0          0 pfJetMETcorr
+TrigReport     1    0          0          0          0          0 pfCandMETcorr
+TrigReport     1    0          0          0          0          0 pfchsMETcorr
+TrigReport     1    0          0          0          0          0 pfType1CorrectedMet
+TrigReport     1    0          0          0          0          0 pfType1p2CorrectedMet
+TrigReport     1    0          0          0          0          0 patMETs
+TrigReport     1    0          0          0          0          0 patMETsPF
+TrigReport     1    0          0          0          0          0 patPFParticles
+TrigReport     1    0          0          0          0          0 patCandidateSummary
+TrigReport     1    0          0          0          0          0 selectedPatElectrons
+TrigReport     1    0          0          0          0          0 selectedPatMuons
+TrigReport     1    0          0          0          0          0 selectedPatTaus
+TrigReport     1    0          0          0          0          0 selectedPatPhotons
+TrigReport     1    0          0          0          0          0 selectedPatJets
+TrigReport     1    0          0          0          0          0 selectedPatPFParticles
+TrigReport     1    0          0          0          0          0 selectedPatCandidateSummary
+TrigReport     1    0          0          0          0          0 cleanPatMuons
+TrigReport     1    0          0          0          0          0 cleanPatElectrons
+TrigReport     1    0          0          0          0          0 cleanPatPhotons
+TrigReport     1    0          0          0          0          0 cleanPatTaus
+TrigReport     1    0          0          0          0          0 cleanPatJets
+TrigReport     1    0          0          0          0          0 cleanPatCandidateSummary
+TrigReport     1    0          0          0          0          0 countPatElectrons
+TrigReport     1    0          0          0          0          0 countPatMuons
+TrigReport     1    0          0          0          0          0 countPatTaus
+TrigReport     1    0          0          0          0          0 countPatLeptons
+TrigReport     1    0          0          0          0          0 countPatPhotons
+TrigReport     1    0          0          0          0          0 countPatJets
+TrigReport     1    0          0          0          0          0 patTrigger
+TrigReport     1    0          0          0          0          0 patTriggerEvent
+TrigReport     1    0          0          0          0          0 countPatPFParticles
+TrigReport     1    0          0          0          0          0 patConversions
+TrigReport     1    0          0          0          0          0 dimu
+TrigReport     1    0          0          0          0          0 diel
+TrigReport     1    0          0          0          0          0 dilep
+TrigReport     1    0          0          0          0          0 zmass
+TrigReport     1    0          0          0          0          0 kt6PFJets
+TrigReport     1    0          0          0          0          0 patJetCorrFactors
+TrigReport     1    0          0          0          0          0 CSCTightHaloFilter
+TrigReport     1    0          0          0          0          0 HBHENoiseFilter
+TrigReport     1    0          0          0          0          0 hcalLaserEventFilter
+TrigReport     1    0          0          0          0          0 EcalDeadCellTriggerPrimitiveFilter
+TrigReport     1    0          0          0          0          0 goodVertices
+TrigReport     1    0          0          0          0          0 trackingFailureFilter
+TrigReport     1    0          0          0          0          0 eeBadScFilter
+TrigReport     1    0          0          0          0          0 prunedGenParticles
+
+TrigReport ------ Modules in End-Path: outpath ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     0    0          0          0          0          0 out
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited        Run     Passed     Failed      Error Name
+TrigReport          0          0          0          0          0 mvaTrigV0
+TrigReport          0          0          0          0          0 mvaTrigNoIPV0
+TrigReport          0          0          0          0          0 mvaNonTrigV0
+TrigReport          0          0          0          0          0 calibratedElectrons
+TrigReport          0          0          0          0          0 pfPileUpIso
+TrigReport          0          0          0          0          0 pfNoPileUpIso
+TrigReport          0          0          0          0          0 pfAllNeutralHadrons
+TrigReport          0          0          0          0          0 pfAllChargedHadrons
+TrigReport          0          0          0          0          0 pfAllPhotons
+TrigReport          0          0          0          0          0 pfAllChargedParticles
+TrigReport          0          0          0          0          0 pfPileUpAllChargedParticles
+TrigReport          0          0          0          0          0 pfAllNeutralHadronsAndPhotons
+TrigReport          0          0          0          0          0 elPFIsoDepositChargedPFIso
+TrigReport          0          0          0          0          0 elPFIsoDepositChargedAllPFIso
+TrigReport          0          0          0          0          0 elPFIsoDepositGammaPFIso
+TrigReport          0          0          0          0          0 elPFIsoDepositNeutralPFIso
+TrigReport          0          0          0          0          0 elPFIsoDepositPUPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueCharged03PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueChargedAll03PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueGamma03PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueNeutral03PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValuePU03PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueCharged04PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueChargedAll04PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueGamma04PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueNeutral04PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValuePU04PFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueCharged03NoPFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueChargedAll03NoPFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueGamma03NoPFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueNeutral03NoPFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValuePU03NoPFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueCharged04NoPFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueChargedAll04NoPFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueGamma04NoPFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValueNeutral04NoPFIdPFIso
+TrigReport          0          0          0          0          0 elPFIsoValuePU04NoPFIdPFIso
+TrigReport          0          0          0          0          0 muPFIsoDepositChargedPFIso
+TrigReport          0          0          0          0          0 muPFIsoDepositChargedAllPFIso
+TrigReport          0          0          0          0          0 muPFIsoDepositGammaPFIso
+TrigReport          0          0          0          0          0 muPFIsoDepositNeutralPFIso
+TrigReport          0          0          0          0          0 muPFIsoDepositPUPFIso
+TrigReport          0          0          0          0          0 muPFIsoValueCharged03PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueChargedAll03PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueGamma03PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueNeutral03PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueGammaHighThreshold03PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueNeutralHighThreshold03PFIso
+TrigReport          0          0          0          0          0 muPFIsoValuePU03PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueCharged04PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueChargedAll04PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueGamma04PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueNeutral04PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueGammaHighThreshold04PFIso
+TrigReport          0          0          0          0          0 muPFIsoValueNeutralHighThreshold04PFIso
+TrigReport          0          0          0          0          0 muPFIsoValuePU04PFIso
+TrigReport          0          0          0          0          0 electronMatch
+TrigReport          0          0          0          0          0 patElectrons
+TrigReport          0          0          0          0          0 muonMatch
+TrigReport          0          0          0          0          0 patMuons
+TrigReport          0          0          0          0          0 tauIsoDepositPFCandidates
+TrigReport          0          0          0          0          0 tauIsoDepositPFChargedHadrons
+TrigReport          0          0          0          0          0 tauIsoDepositPFNeutralHadrons
+TrigReport          0          0          0          0          0 tauIsoDepositPFGammas
+TrigReport          0          0          0          0          0 tauMatch
+TrigReport          0          0          0          0          0 tauGenJets
+TrigReport          0          0          0          0          0 tauGenJetsSelectorAllHadrons
+TrigReport          0          0          0          0          0 tauGenJetMatch
+TrigReport          0          0          0          0          0 patTaus
+TrigReport          0          0          0          0          0 photonMatch
+TrigReport          0          0          0          0          0 patPhotons
+TrigReport          0          0          0          0          0 patJetCorrFactors
+TrigReport          0          0          0          0          0 patJetCharge
+TrigReport          0          0          0          0          0 patJetPartonMatch
+TrigReport          0          0          0          0          0 patJetGenJetMatch
+TrigReport          0          0          0          0          0 patJetPartons
+TrigReport          0          0          0          0          0 patJetPartonAssociation
+TrigReport          0          0          0          0          0 patJetFlavourAssociation
+TrigReport          0          0          0          0          0 patJets
+TrigReport          0          0          0          0          0 caloJetMETcorr
+TrigReport          0          0          0          0          0 muonCaloMETcorr
+TrigReport          0          0          0          0          0 caloType1CorrectedMet
+TrigReport          0          0          0          0          0 caloType1p2CorrectedMet
+TrigReport          0          0          0          0          0 pfCandsNotInJet
+TrigReport          0          0          0          0          0 pfJetMETcorr
+TrigReport          0          0          0          0          0 pfCandMETcorr
+TrigReport          0          0          0          0          0 pfchsMETcorr
+TrigReport          0          0          0          0          0 pfType1CorrectedMet
+TrigReport          0          0          0          0          0 pfType1p2CorrectedMet
+TrigReport          0          0          0          0          0 patMETs
+TrigReport          0          0          0          0          0 patMETsPF
+TrigReport          0          0          0          0          0 patPFParticles
+TrigReport          0          0          0          0          0 patCandidateSummary
+TrigReport          0          0          0          0          0 selectedPatElectrons
+TrigReport          0          0          0          0          0 selectedPatMuons
+TrigReport          0          0          0          0          0 selectedPatTaus
+TrigReport          0          0          0          0          0 selectedPatPhotons
+TrigReport          0          0          0          0          0 selectedPatJets
+TrigReport          0          0          0          0          0 selectedPatPFParticles
+TrigReport          0          0          0          0          0 selectedPatCandidateSummary
+TrigReport          0          0          0          0          0 cleanPatMuons
+TrigReport          0          0          0          0          0 cleanPatElectrons
+TrigReport          0          0          0          0          0 cleanPatPhotons
+TrigReport          0          0          0          0          0 cleanPatTaus
+TrigReport          0          0          0          0          0 cleanPatJets
+TrigReport          0          0          0          0          0 cleanPatCandidateSummary
+TrigReport          0          0          0          0          0 countPatElectrons
+TrigReport          0          0          0          0          0 countPatMuons
+TrigReport          0          0          0          0          0 countPatTaus
+TrigReport          0          0          0          0          0 countPatLeptons
+TrigReport          0          0          0          0          0 countPatPhotons
+TrigReport          0          0          0          0          0 countPatJets
+TrigReport          0          0          0          0          0 patTrigger
+TrigReport          0          0          0          0          0 patTriggerEvent
+TrigReport          0          0          0          0          0 countPatPFParticles
+TrigReport          0          0          0          0          0 patConversions
+TrigReport          0          0          0          0          0 dimu
+TrigReport          0          0          0          0          0 diel
+TrigReport          0          0          0          0          0 dilep
+TrigReport          0          0          0          0          0 zmass
+TrigReport          0          0          0          0          0 kt6PFJets
+TrigReport          0          0          0          0          0 CSCTightHaloFilter
+TrigReport          0          0          0          0          0 HBHENoiseFilter
+TrigReport          0          0          0          0          0 hcalLaserEventFilter
+TrigReport          0          0          0          0          0 EcalDeadCellTriggerPrimitiveFilter
+TrigReport          0          0          0          0          0 goodVertices
+TrigReport          0          0          0          0          0 trackingFailureFilter
+TrigReport          0          0          0          0          0 eeBadScFilter
+TrigReport          0          0          0          0          0 prunedGenParticles
+TrigReport          0          0          0          0          0 TriggerResults
+TrigReport          0          0          0          0          0 out
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport CPU/event = 0.000000 Real/event = 0.000000
+
+TimeReport ---------- Path   Summary ---[sec]----
+TimeReport             per event          per path-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 p
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event          per path-run 
+
+TimeReport -------End-Path   Summary ---[sec]----
+TimeReport             per event       per endpath-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 outpath
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event       per endpath-run 
+
+TimeReport ---------- Modules in Path: p ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 mvaTrigV0
+TimeReport   0.000000   0.000000   0.000000   0.000000 mvaTrigNoIPV0
+TimeReport   0.000000   0.000000   0.000000   0.000000 mvaNonTrigV0
+TimeReport   0.000000   0.000000   0.000000   0.000000 calibratedElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfPileUpIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfNoPileUpIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllNeutralHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllChargedHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllChargedParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfPileUpAllChargedParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllNeutralHadronsAndPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositChargedPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositChargedAllPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositGammaPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositNeutralPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositPUPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueCharged03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueChargedAll03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueGamma03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueNeutral03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValuePU03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueCharged04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueChargedAll04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueGamma04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueNeutral04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValuePU04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueCharged03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueChargedAll03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueGamma03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueNeutral03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValuePU03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueCharged04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueChargedAll04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueGamma04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValueNeutral04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 elPFIsoValuePU04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositChargedPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositChargedAllPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositGammaPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositNeutralPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositPUPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueCharged03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueChargedAll03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueGamma03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueNeutral03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueGammaHighThreshold03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueNeutralHighThreshold03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValuePU03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueCharged04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueChargedAll04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueGamma04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueNeutral04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueGammaHighThreshold04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValueNeutralHighThreshold04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 muPFIsoValuePU04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 electronMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000 patElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 muonMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000 patMuons
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfPileUpIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfNoPileUpIso
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllNeutralHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllChargedHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllChargedParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfPileUpAllChargedParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfAllNeutralHadronsAndPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 tauIsoDepositPFCandidates
+TimeReport   0.000000   0.000000   0.000000   0.000000 tauIsoDepositPFChargedHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 tauIsoDepositPFNeutralHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 tauIsoDepositPFGammas
+TimeReport   0.000000   0.000000   0.000000   0.000000 tauMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000 tauGenJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 tauGenJetsSelectorAllHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 tauGenJetMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000 patTaus
+TimeReport   0.000000   0.000000   0.000000   0.000000 photonMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000 patPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 patJetCorrFactors
+TimeReport   0.000000   0.000000   0.000000   0.000000 patJetCharge
+TimeReport   0.000000   0.000000   0.000000   0.000000 patJetPartonMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000 patJetGenJetMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000 patJetPartons
+TimeReport   0.000000   0.000000   0.000000   0.000000 patJetPartonAssociation
+TimeReport   0.000000   0.000000   0.000000   0.000000 patJetFlavourAssociation
+TimeReport   0.000000   0.000000   0.000000   0.000000 patJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 caloJetMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 muonCaloMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 caloType1CorrectedMet
+TimeReport   0.000000   0.000000   0.000000   0.000000 caloType1p2CorrectedMet
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfCandsNotInJet
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfJetMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfCandMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfchsMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfType1CorrectedMet
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfType1p2CorrectedMet
+TimeReport   0.000000   0.000000   0.000000   0.000000 patMETs
+TimeReport   0.000000   0.000000   0.000000   0.000000 patMETsPF
+TimeReport   0.000000   0.000000   0.000000   0.000000 patPFParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000 patCandidateSummary
+TimeReport   0.000000   0.000000   0.000000   0.000000 selectedPatElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 selectedPatMuons
+TimeReport   0.000000   0.000000   0.000000   0.000000 selectedPatTaus
+TimeReport   0.000000   0.000000   0.000000   0.000000 selectedPatPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 selectedPatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 selectedPatPFParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000 selectedPatCandidateSummary
+TimeReport   0.000000   0.000000   0.000000   0.000000 cleanPatMuons
+TimeReport   0.000000   0.000000   0.000000   0.000000 cleanPatElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 cleanPatPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 cleanPatTaus
+TimeReport   0.000000   0.000000   0.000000   0.000000 cleanPatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 cleanPatCandidateSummary
+TimeReport   0.000000   0.000000   0.000000   0.000000 countPatElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000 countPatMuons
+TimeReport   0.000000   0.000000   0.000000   0.000000 countPatTaus
+TimeReport   0.000000   0.000000   0.000000   0.000000 countPatLeptons
+TimeReport   0.000000   0.000000   0.000000   0.000000 countPatPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 countPatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 patTrigger
+TimeReport   0.000000   0.000000   0.000000   0.000000 patTriggerEvent
+TimeReport   0.000000   0.000000   0.000000   0.000000 countPatPFParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000 patConversions
+TimeReport   0.000000   0.000000   0.000000   0.000000 dimu
+TimeReport   0.000000   0.000000   0.000000   0.000000 diel
+TimeReport   0.000000   0.000000   0.000000   0.000000 dilep
+TimeReport   0.000000   0.000000   0.000000   0.000000 zmass
+TimeReport   0.000000   0.000000   0.000000   0.000000 kt6PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 patJetCorrFactors
+TimeReport   0.000000   0.000000   0.000000   0.000000 CSCTightHaloFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000 HBHENoiseFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000 hcalLaserEventFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000 EcalDeadCellTriggerPrimitiveFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000 goodVertices
+TimeReport   0.000000   0.000000   0.000000   0.000000 trackingFailureFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000 eeBadScFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000 prunedGenParticles
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ------ Modules in End-Path: outpath ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 out
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ---------- Module Summary ---[sec]----
+TimeReport             per event        per module-run      per module-visit 
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 mvaTrigV0
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 mvaTrigNoIPV0
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 mvaNonTrigV0
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 calibratedElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfPileUpIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfNoPileUpIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfAllNeutralHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfAllChargedHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfAllPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfAllChargedParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfPileUpAllChargedParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfAllNeutralHadronsAndPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositChargedPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositChargedAllPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositGammaPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositNeutralPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoDepositPUPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueCharged03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueChargedAll03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueGamma03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueNeutral03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValuePU03PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueCharged04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueChargedAll04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueGamma04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueNeutral04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValuePU04PFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueCharged03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueChargedAll03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueGamma03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueNeutral03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValuePU03NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueCharged04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueChargedAll04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueGamma04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValueNeutral04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 elPFIsoValuePU04NoPFIdPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositChargedPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositChargedAllPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositGammaPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositNeutralPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoDepositPUPFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueCharged03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueChargedAll03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueGamma03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueNeutral03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueGammaHighThreshold03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueNeutralHighThreshold03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValuePU03PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueCharged04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueChargedAll04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueGamma04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueNeutral04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueGammaHighThreshold04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValueNeutralHighThreshold04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muPFIsoValuePU04PFIso
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 electronMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muonMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patMuons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 tauIsoDepositPFCandidates
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 tauIsoDepositPFChargedHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 tauIsoDepositPFNeutralHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 tauIsoDepositPFGammas
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 tauMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 tauGenJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 tauGenJetsSelectorAllHadrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 tauGenJetMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patTaus
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 photonMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patJetCorrFactors
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patJetCharge
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patJetPartonMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patJetGenJetMatch
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patJetPartons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patJetPartonAssociation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patJetFlavourAssociation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 caloJetMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muonCaloMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 caloType1CorrectedMet
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 caloType1p2CorrectedMet
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfCandsNotInJet
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfJetMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfCandMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfchsMETcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfType1CorrectedMet
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfType1p2CorrectedMet
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patMETs
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patMETsPF
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patPFParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patCandidateSummary
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectedPatElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectedPatMuons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectedPatTaus
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectedPatPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectedPatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectedPatPFParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectedPatCandidateSummary
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatMuons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatTaus
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatCandidateSummary
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatElectrons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatMuons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatTaus
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatLeptons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patTrigger
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patTriggerEvent
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatPFParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patConversions
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 dimu
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 diel
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 dilep
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 zmass
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt6PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 CSCTightHaloFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 HBHENoiseFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hcalLaserEventFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 EcalDeadCellTriggerPrimitiveFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 goodVertices
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 trackingFailureFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 eeBadScFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 prunedGenParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 TriggerResults
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 out
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport             per event        per module-run      per module-visit 
+
+T---Report end!
+
+13-Sep-2013 06:30:07 CDT  Closed file file:///hdfs/store/mc/Summer12_DR53X/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph-tarball/AODSIM/PU_S10_START53_V7A-v1/0001/BA50ECB3-75D3-E111-B042-0025B31E3C3C.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           BeforeEvents                      
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3
