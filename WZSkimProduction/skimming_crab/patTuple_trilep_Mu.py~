@@ -3,7 +3,7 @@ from UserAnalysis.WZSkkimProduction.patTuple_trigger_cfg import *
 
 # 2nd argument: message-logger frequency
 # 3rd argument: # of events to process
-trilep_config(process, 'MC', 100, 100, True)
+trilep_config(process, 'Prompt', 100, 100, True)
 
 ## remove MC matching from the default sequence when running on data
 #removeMCMatching(process, ['All'])

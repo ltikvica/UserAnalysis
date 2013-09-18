@@ -1,5 +1,5 @@
-from UseAnalysis.WZSkimProduction.patTuple_trilep_cfg import *
-from UserAnalysis.WZSkkimProduction.patTuple_trigger_cfg import *
+from UserAnalysis.WZSkimProduction.patTuple_trilep_cfg import *
+from UserAnalysis.WZSkimProduction.patTuple_trigger_cfg import *
 
 # 2nd argument: message-logger frequency
 # 3rd argument: # of events to process
