@@ -97,8 +97,9 @@ def trilep_config(process, mode, reportEveryNum=100, maxEvents=-1, runOnData=Fal
     process.out.outputCommands.append('keep *_offlinePrimaryVertices_*_*')
     
     
-    process.patJetCorrFactors.rho = cms.InputTag("kt6PFJetsPFlow", "rho")
-    process.out.outputCommands.append('keep *_kt6PFJets_rho_PAT')
+#    process.patJetCorrFactors.rho = cms.InputTag("kt6PFJetsPFlow", "rho")
+#    process.out.outputCommands.append('keep *_kt6PFJets_rho_PAT')
+    process.out.outputCommands.append('keep *_kt6PFJets_rho_RECO')
     process.out.outputCommands.append('keep patElectrons_selected*PFlowLoose*_*_*')
     process.out.outputCommands.append('keep *_cleanPatElectrons_*_*')
 

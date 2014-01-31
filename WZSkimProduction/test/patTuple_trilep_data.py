@@ -17,8 +17,9 @@ addHLTFilter(process, 'HLT', "off")#For initial testing
 process.p.replace(process.patTrigger, process.patTrigger+process.hltFilter)
 
 process.source.fileNames = [
-    '/store/data/Run2012C/DoubleMu/AOD/PromptReco-v2/000/200/160/8457C3D4-14DF-E111-A67A-00237DDBE0E2.root'
+#    '/store/data/Run2012C/DoubleMu/AOD/PromptReco-v2/000/200/160/8457C3D4-14DF-E111-A67A-00237DDBE0E2.root'
     #'/store/data/Run2012C/DoubleElectron/AOD/PromptReco-v2/000/200/160/B4E531D5-14DF-E111-B75C-002481E0D73C.root'
+    'file:/STORE/se/cms/store/data/Run2012A/DoubleElectron/AOD/22Jan2013-v1/20000/003EC246-5E67-E211-B103-00259059642E.root'
     ] 
 
 #process.out.outputCommands.append('keep *_*_*_*')
